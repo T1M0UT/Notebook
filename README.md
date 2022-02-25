@@ -29,6 +29,14 @@ self represents the instance of the class. By using the “self” keyword we ca
 notebook1 = Notebook()
 Notebook.new_note(self=notebook1)
 ```
+### __init\__
+The __init__ method can be called when an object is created from the class, and access is required to initialize the attributes of the class.
+```
+>>> Note.__init__
+<function Notebook.__init__ at 0x106a7a5e0>
+>>> Notebook.__init__
+<function Note.__init__ at 0x106b69160>
+```
 ### Built-in Methods
 ```
 >>> dir(Notebook)
